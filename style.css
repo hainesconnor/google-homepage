@@ -1,6 +1,17 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 main {
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    padding-bottom: 5%;
+
 }
 
 #logo {
@@ -15,7 +26,7 @@ main {
 
 input[type="text"] {
     border: none;
-    width: 400px;
+    width: 484px;
 }
 
 #searchform {
@@ -27,24 +38,43 @@ input[type="text"] {
     z-index: 3;
     height: 44px;
     margin: 30px auto;
-    width: 482px;
+    width: 575px;
+    align-content: center;
 }
 
 #hourglassholder {
-    height: 20px;
+    height: 25px;
     overflow: hidden;
     margin: auto 12px;
 }
 
 #hourglass {
-    height: 34px;
+    height: 44px;
 }
 
 #voicesearch {
-    height: 20px;
+    height: 25px;
     margin: auto 12px;
 }
 
 #searchtype{
     text-align: center;
+}
+
+button {
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
