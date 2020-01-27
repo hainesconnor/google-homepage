@@ -1,5 +1,7 @@
 html, body {
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -155,4 +157,20 @@ button.search {
     text-align: center;
     cursor: pointer;
     user-select: none;
+}
+
+footer{
+    display: block;
+    width: 100%;
+    background: #f2f2f2;
+    height: 40px;
+    padding-right: 0 15px;
+}
+
+footer li a {
+    line-height: 20px;
+}
+
+#settings {
+    padding-right: 15px;
 }
